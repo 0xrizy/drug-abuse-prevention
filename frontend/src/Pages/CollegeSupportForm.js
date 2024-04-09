@@ -21,7 +21,7 @@ const CollegeSupportForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post("http://localhost:3001/api/college-support", formData);
+      const response = await axios.post("https://drug-abuse-prevention-1.onrender.com/api/college-support", formData);
       console.log("Form submitted successfully:", response.data);
       // Reset the form after submission if needed
       setFormData({

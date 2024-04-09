@@ -15,7 +15,7 @@ const UserLogin = () => {
       return;
     }
     try {
-      const response = await axios.post("http://localhost:3001/api/login", {
+      const response = await axios.post("https://drug-abuse-prevention-1.onrender.com/api/login", {
         email,
         password,
       });

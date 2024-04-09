@@ -30,7 +30,7 @@ export default function UserReports() {
     const fetchData2 = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:3001/api/goals-summary",
+          "https://drug-abuse-prevention-1.onrender.com/api/goals-summary",
           {
             headers: {
               Authorization: `Bearer ${token}`,
@@ -54,7 +54,7 @@ export default function UserReports() {
     const fetchData = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:3001/api/user-reports",
+          "https://drug-abuse-prevention-1.onrender.com/api/user-reports",
           {
             headers: {
               Authorization: `Bearer ${token}`,

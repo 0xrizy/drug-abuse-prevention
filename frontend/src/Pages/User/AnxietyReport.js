@@ -22,7 +22,7 @@ const AnxietyReport = () => {
         const token = Cookies.get("token");
         setToken(token);
         const response = await axios.get(
-          "http://localhost:3001/api/allResults",
+          "https://drug-abuse-prevention-1.onrender.com/api/allResults",
           {
             headers: {
               Authorization: `Bearer ${token}`,

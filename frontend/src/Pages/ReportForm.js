@@ -31,7 +31,7 @@ const ReportForm = () => {
       }
      
       const response = await axios.post(
-        "http://localhost:3001/report",
+        "https://drug-abuse-prevention-1.onrender.com/report",
         formData,
       );
 
